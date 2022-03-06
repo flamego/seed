@@ -21,7 +21,12 @@ This repository contains seed files that almost every repository of Flamego midd
     -github.repository == 'flamego/seed'
     +github.repository == 'flamego/bilibili'
     ```
-1. Update the `README.md` to be about your middleware, a good example is [flamego/template's README](https://github.com/flamego/template/blob/main/README.md).
+1. Update the `import_root` in the `.deepsource.toml` to match the middleware repository, e.g.:
+    ```diff
+    -import_root = "github.com/flamego/seed"
+    +import_root = "github.com/flamego/bilibili"
+    ```
+3. Update the `README.md` to be about your middleware, a good example is [flamego/template's README](https://github.com/flamego/template/blob/main/README.md).
 
 ## Getting help
 
