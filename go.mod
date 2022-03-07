@@ -2,4 +2,4 @@ module github.com/flamego/seed
 
 go 1.16
 
-require github.com/flamego/flamego v1.0.1
+require github.com/flamego/flamego v1.1.0
