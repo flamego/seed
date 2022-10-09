@@ -16,7 +16,6 @@ linters:
     - ineffassign
     - staticcheck
     - typecheck
-    - unused
     - nakedret
     - gofmt
     - rowserrcheck
