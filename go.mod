@@ -2,7 +2,7 @@ module github.com/flamego/seed
 
 go 1.19
 
-require github.com/flamego/flamego v1.9.5
+require github.com/flamego/flamego v1.9.6
 
 require (
 	github.com/alecthomas/participle/v2 v2.1.1 // indirect
