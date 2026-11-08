@@ -1,6 +1,6 @@
 module github.com/flamego/seed
 
-go 1.19
+go 1.27
 
 require github.com/flamego/flamego v1.9.7
 
